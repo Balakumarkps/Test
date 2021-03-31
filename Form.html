@@ -4,9 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form 31/3/2021</title>
 </head>
 <body>
-    
+    <h2>Registration Form</h2>
+    <form action="/My Work">
+    <p>
+    <label> First Name:
+        <input type="text" name="first name" required>
+    </label>
+</p>
+<p>
+    <label> Last Name:
+        <input type="text" name="Last name" required>
+    </label>
+</p>
+<p>
+    <label> DOB:
+        <input type="date" name="Date of Birth" required>
+    </label>
+</p>
+<p>
+    <label> Gender:
+        <input type="radio" name="Gender" value="male" required>
+        <label>Male</label>
+        <input type="radio" name="Gender" value="female">
+        <label>Female</label>
+    </label>
+</p>
+<p>
+    <label>Email:
+        <input type="email" required>
+    </label>
+</p>
+<p>
+    <label>Interested in:
+        <input type="checkbox" name="Cricket">
+        <label>Cricket</label>
+        <input type="checkbox" name="Football">
+        <label>Football</label>
+    </label>
+</p>
+<p>
+    <label>Fees Paid:
+        <input type="range" minlength="10" maxlength="100" step="10" required>
+    </label>
+</p>
+<p>
+    <label> Username:
+    <input type="text" name="username" minlength="5" maxlength="20" required>
+</label>
+</p>
+<p>
+    <label> Password:
+        <input type="password" name="password" minlength="4" maxlength="8" required>
+    </label>
+</p>
+<p>
+    <label> Confirm Password:
+        <input type="password" name="password" minlength="4" maxlength="8" required>
+    </label>
+</p>
+<button>Submit</button>
+</form>
 </body>
 </html>
