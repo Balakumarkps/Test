@@ -1,0 +1,22 @@
+.color {
+    color: green;
+    background-color: hotpink;
+    width: 200px;
+
+}
+
+.nextcolor{
+    color: mediumslateblue;
+}
+
+#ide{
+    text-align: right;
+    text-decoration: overline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700 !important;
+}
+
+.buttonstyle{
+    background-color: olive;
+    color: rgb(100, 90, 110) ;
+}
